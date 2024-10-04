@@ -1,21 +1,46 @@
-#bröd{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    border: 4px solid rgb(1, 109, 1);
-}
-p{
-    background-color: yellow;
-    margin-left: 50%;
-}
-.blåsvart{
+.Rubrik1{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: blue;
-    border: 4px solid rgb(113, 111, 111);
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px solid red;
 }
-.img{
-    padding-top: 50px;
-    padding-bottom: 50px;
+h1{
+    background-color: aqua;
+    border: 1px solid;
+}
+.backround{
+    background-color: rgb(231, 229, 229);
+
+}
+.Höger_Rubrik{
+    background-color: yellow;
+    padding: 20px;
+    padding-right: 19.7%;
+    padding-left: 21%;
+    margin-right: 0.3%;
+    border: 2px solid black;
+    text-align: center;
+}
+.Vänster_Rubrik{
+    background-color: pink;
+    padding: 20px;
+    padding-left: 19.7%;
+    padding-right: 20%;
+    margin-right: 0.3%;
+    border: 2px solid black;
+}
+.Rubrik2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 3px solid orange;
+}
+.Bröd_text{
+    border: 3px solid yellow;
+}
+div{
+    margin-left: 10%;
+    margin-right: 10%;
 }
